@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+header {
+  background-color: rgb(215, 215, 215);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.titulo-header {
+  color: #121a38;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.contenedor {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #071444df;
+  padding: 15px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+a:hover {
+  background-color: #121a38;
+}
+.nombres {
+  color: rgb(61, 61, 61);
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.act1 {
+  color: #333;
+  font-size: small;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.actividades {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #2e4c6c;
+  font-size: 18px;
+}
+.unidades {
+  font-size: 30px;
+  color: #122a45;
+}
+.titulo-principal {
+  font-size: 45px;
+  padding: 20px;
+  color: black;
+}
+.subtitulo-principal {
+  font-size: 30px;
+  padding: 30px;
+  color: black;
+}
+.logo {
+  width: 70px;
+}
+.btn-inicio {
+  width: 100px;
+  background-color: #961515;
+  border-radius: 0;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn-inicio:hover {
+  background-color: #600e0e;
+}
+.tt-inicio {
+  font-size: 50px;
+  padding: 20px;
+  color: black;
+}
+.btt-inicio {
+  font-size: 30px;
+  color: rgb(34, 32, 32);
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1500px;
+  text-align: center;
+  overflow: hidden;
+}
+.titulo-card {
+  font-size: 24px;
+  color: #122a45;
+  margin-bottom: 15px;
+}
+.texto-card {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.img-card {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.regresar-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+.tt-regresar {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  padding: 30px;
+  color: black;
+  transform: translateX(-50%);
+  text-align: center;
+  margin: 0;
+}
+.btn-volver {
+  background-color: #094140;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  height: 50px;
+}
+.btn-volver:hover {
+  background-color: #062e2d;
+}
+.tt-proyecto {
+  padding: 0;
+  font-size: 30px;
+  color: #050b12;
+}
+.contenedor-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+  color: black;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  margin-bottom: 10px;
+}
